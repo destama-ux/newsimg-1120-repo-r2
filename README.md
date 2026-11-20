@@ -1,8 +1,8 @@
 # The World in One Day — Friday 20 November 2026: 34 verified stories
 
-[![make.fun · news-image-20261120](https://make.fun/bounty/news-image-20261120/badge.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
-![rank](https://make.fun/badge/news-image-20261120/destama-ux/newsimg-1120-repo-r2/rank.svg)
-![reward](https://make.fun/badge/news-image-20261120/destama-ux/newsimg-1120-repo-r2/reward.svg)
+[![make.fun · news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![rank](https://make.fun/badge/news-image-20261120/destama-ux/newsimg-1120-repo-r2/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![reward](https://make.fun/badge/news-image-20261120/destama-ux/newsimg-1120-repo-r2/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
 An entry for [make.fun's news-image-20261120 bounty](https://make.fun/bounty/news-image-20261120):
 a one-page newspaper image covering a single day of world news. This is

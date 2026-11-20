@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1024px;height:1024px;background:#f7f1e3;font-family:'Liberation Sans',Arial,Helvetica,sans-serif;color:#191919;overflow:hidden}
+.page{width:1024px;height:1024px;padding:9px 14px 7px}
+.topbar{display:flex;justify-content:space-between;font-size:10px;letter-spacing:2.5px;font-weight:bold;color:#a6192e;border-bottom:2.5px solid #191919;padding-bottom:4px}
+.topbar span:last-child{color:#191919;letter-spacing:1.5px}
+h1{font-family:'Liberation Serif',Georgia,serif;font-size:76px;line-height:1.02;letter-spacing:-1px;text-align:center;margin:5px 0 1px}
+.sub{font-family:'Liberation Serif',Georgia,serif;font-style:italic;font-size:15.5px;text-align:center;color:#7a1420;padding-bottom:6px;border-bottom:2.5px solid #191919}
+.stats{display:flex;border-bottom:1.5px solid #191919}
+.stat{flex:1;text-align:center;padding:5px 4px 4px;border-left:2.5px solid #a6192e}
+.stat:first-child{border-left:none}
+.stat b{display:block;font-size:25px;line-height:1;color:#191919}
+.stat span{font-size:9px;color:#444}
+.regions{display:flex;border-bottom:1.5px solid #191919}
+.reg{flex:1;text-align:center;font-size:10.5px;font-weight:bold;color:#fff;padding:3px 0;letter-spacing:.4px}
+.tl{background:#191919;color:#fff;font-size:10px;padding:4px 8px;white-space:nowrap;overflow:hidden}
+.tl b{color:#ffcf3f}
+.tl span{color:#bbb}
+.leads{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:7px}
+.meds{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-top:7px}
+.panel{border:1.5px solid #191919;background:#fffdf6}
+.art{width:100%;display:block}
+.kick{font-size:10px;font-weight:bold;color:#a6192e;padding:3px 6px 0;letter-spacing:.3px}
+.kick i{font-style:normal;background:#a6192e;color:#fff;padding:0 4px;margin-right:3px}
+.panel h3{font-family:'Liberation Serif',Georgia,serif;font-size:15.5px;line-height:1.08;padding:1px 6px 0}
+.panel p{font-size:10.5px;line-height:1.28;padding:2px 6px 5px;color:#333}
+.panel p i{color:#777}
+.lead .art{height:106px}
+.lead h3{font-size:17.5px}
+.lead p{font-size:11px}
+.med .art{height:48px}
+.med h3{font-size:12.5px}
+.med p{font-size:9.5px;line-height:1.22}
+.bottom{display:grid;grid-template-columns:296px 1fr;gap:9px;margin-top:8px}
+.mapbox{border:1.5px solid #191919;background:#14264a;color:#fff;padding:5px 6px 4px}
+.mapbox h4{font-size:10.5px;letter-spacing:1.5px}
+.mapbox svg{width:100%;height:132px;display:block;margin-top:2px}
+.mapbox p{font-size:9.5px;color:#d8e2f5;line-height:1.3}
+.briefs h4{font-size:11.5px;letter-spacing:1px;border-bottom:1.5px solid #191919;padding-bottom:2px;margin-bottom:3px}
+.briefs h4 span{color:#a6192e}
+.bcols{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+.briefs p{font-size:10px;line-height:1.32;padding:1.5px 0;color:#222}
+.briefs p b{color:#a6192e}
+.briefs p i{color:#777}
+.datecheck{border:2px solid #a6192e;padding:7px 8px;margin-top:8px;font-size:10.5px;line-height:1.35}
+.datecheck b{color:#a6192e;letter-spacing:1px}
+.foot{font-size:8.5px;color:#666;text-align:center;margin-top:5px}
+svg text{font-family:'Liberation Sans',Arial,sans-serif}
+</style></head><body><div class="page">
+<div class="topbar"><span>THE WORLD IN ONE DAY</span><span>34 VERIFIED STORIES &nbsp;·&nbsp; 6 REGIONS &nbsp;·&nbsp; ALL FROM THIS ONE DAY</span></div>
+<h1>Friday 20 November 2026</h1>
+<div class="sub">Russian missiles hit Kyiv&rsquo;s bridges &nbsp;·&nbsp; Cyclone Akvan strikes India &nbsp;·&nbsp; An AI sell-off sinks Asia &nbsp;·&nbsp; Britain and the EU sign their reset deal</div>
+<div class="stats">
+<div class="stat"><b>70&ndash;80</b><span>km/h &mdash; Akvan winds at landfall</span></div>
+<div class="stat"><b>100,000</b><span>youth visas a year, each way</span></div>
+<div class="stat"><b>$87.66</b><span>Anthropic, pre-market</span></div>
+<div class="stat"><b>19,000</b><span>YouTube channels taken down</span></div>
+<div class="stat"><b>24.6m</b><span>GTA VI copies in 24 hours</span></div>
+<div class="stat"><b>$2.36bn</b><span>day-one sales, estimated</span></div>
+</div>
+<div class="regions">
+<div class="reg" style="background:#8a5a00">ASIA-PACIFIC 7</div>
+<div class="reg" style="background:#1d4e9e">EUROPE 15</div>
+<div class="reg" style="background:#7a3b06">MIDDLE EAST 1</div>
+<div class="reg" style="background:#14663f">AFRICA 1</div>
+<div class="reg" style="background:#6d28a8">AMERICAS 6</div>
+<div class="reg" style="background:#444">GLOBAL 4</div>
+</div>
+<div class="tl"><b>THE DAY IN UTC</b> &nbsp; <span>02:14</span> SEOUL Kakao cleared &nbsp;·&nbsp; <span>02:30</span> GOPALPUR landfall &nbsp;·&nbsp; <span>05:50</span> GOPALPUR done &nbsp;·&nbsp; <span>08:05</span> LONDON shares &minus;1% &nbsp;·&nbsp; <span>10:30</span> NEW YORK ANT &minus;4.7% &nbsp;·&nbsp; <span>13:38</span> NEW YORK ANT $87.66</div>
+
+<div class="leads">
+<div class="panel lead">
+<svg class="art" viewBox="0 0 320 92" preserveAspectRatio="none"><rect width="320" height="92" fill="#0e1e3f"/><rect y="58" width="320" height="34" fill="#132c5e"/><path d="M0 92 L0 62 L22 62 L22 48 L40 48 L40 66 L62 66 L62 40 L84 40 L84 62 L110 62 L110 52 L132 52 L132 70 L160 70 L160 44 L182 44 L182 64 L210 64 L210 50 L236 50 L236 68 L262 68 L262 46 L286 46 L286 66 L320 66 L320 92 Z" fill="#060d1f"/><path d="M30 78 Q90 62 150 74 Q210 84 290 70" stroke="#7fb3ff" stroke-width="3" fill="none"/><circle cx="150" cy="74" r="5" fill="#ffcf3f"/><path d="M40 20 L90 44 M120 10 L150 40 M210 14 L180 42" stroke="#ffb347" stroke-width="2" stroke-dasharray="5 4"/><circle cx="90" cy="44" r="3.5" fill="#ff7b2f"/><circle cx="180" cy="42" r="3.5" fill="#ff7b2f"/><rect x="8" y="6" width="168" height="22" fill="#a6192e"/><text x="15" y="22" font-size="14.5" font-weight="bold" fill="#fff">KYIV &mdash; 3 BRIDGES HIT</text><rect x="184" y="6" width="128" height="20" fill="#fff"/><text x="192" y="21" font-size="13" font-weight="bold" fill="#a6192e">5 KILLED</text></svg>
+<div class="kick"><i>1</i>KYIV &middot; WAR</div>
+<h3>Russian missiles hit three Kyiv bridges</h3>
+<p>Three bridges hit in a major Russian missile attack; five killed. <i>&mdash; BBC</i></p>
+</div>
+<div class="panel lead">
+<svg class="art" viewBox="0 0 320 92" preserveAspectRatio="none"><rect width="320" height="92" fill="#0b5e6b"/><rect y="66" width="320" height="26" fill="#0a4a55"/><path d="M0 66 Q40 58 80 66 T160 66 T240 66 T320 66" stroke="#bfe8ef" stroke-width="2" fill="none"/><circle cx="215" cy="42" r="30" fill="none" stroke="#fff" stroke-width="3"/><circle cx="215" cy="42" r="21" fill="none" stroke="#fff" stroke-width="2.5"/><circle cx="215" cy="42" r="12" fill="none" stroke="#fff" stroke-width="2"/><circle cx="215" cy="42" r="4" fill="#ffcf3f"/><path d="M0 0 L320 0 L320 26 L0 26 Z" fill="#0b5e6b"/><rect x="8" y="6" width="170" height="22" fill="#a6192e"/><text x="15" y="22" font-size="15" font-weight="bold" fill="#fff">CYCLONE AKVAN</text><rect x="186" y="6" width="126" height="20" fill="#fff"/><text x="193" y="21" font-size="12.5" font-weight="bold" fill="#0b5e6b">70&ndash;80 KM/H</text><text x="10" y="86" font-size="11" font-weight="bold" fill="#fff">GOPALPUR &middot; LANDFALL 8 AM &middot; GUSTS 90</text></svg>
+<div class="kick"><i>2</i>GOPALPUR &middot; STORM</div>
+<h3>Cyclone Akvan strikes India&rsquo;s east coast</h3>
+<p>Landfall near Gopalpur at 70&ndash;80 km/h, gusting 90. No major damage or deaths reported; third cyclone in a month. <i>&mdash; IMD / Reuters</i></p>
+</div>
+<div class="panel lead">
+<svg class="art" viewBox="0 0 320 92" preserveAspectRatio="none"><rect width="320" height="92" fill="#111"/><polyline points="10,30 60,38 100,28 150,58 200,50 250,74 310,66" fill="none" stroke="#e5484d" stroke-width="3.5"/><circle cx="150" cy="58" r="4" fill="#ffcf3f"/><rect x="8" y="6" width="120" height="22" fill="#a6192e"/><text x="15" y="22" font-size="15" font-weight="bold" fill="#fff">AI SELL-OFF</text><text x="140" y="24" font-size="19" font-weight="bold" fill="#fff">$87.66</text><text x="228" y="24" font-size="19" font-weight="bold" fill="#e5484d">&minus;9.8%</text><text x="10" y="86" font-size="11" font-weight="bold" fill="#fff">DAY TWO &middot; EUROPE&rsquo;S WORST WEEK SINCE MARCH</text></svg>
+<div class="kick"><i>3</i>NEW YORK &middot; MARKETS</div>
+<h3>Anthropic slides a day after its record debut</h3>
+<p>ANT fell 10% pre-market to $87.66 after a $97.17 close; European shares head for their worst week since March. <i>&mdash; Reuters / Finnhub</i></p>
+</div>
+</div>
+
+<div class="meds">
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#0f766e"/><circle cx="30" cy="21" r="14" fill="#7ec8e3"/><path d="M22 14 Q30 8 38 14 Q38 28 30 30 Q22 28 22 14" fill="#2e9e5b"/><text x="52" y="18" font-size="13" font-weight="bold" fill="#fff">COP31</text><text x="52" y="33" font-size="9" font-weight="bold" fill="#ffcf3f">NO DEAL YET</text><rect x="126" y="5" width="58" height="14" fill="#fff"/><text x="130" y="15" font-size="8" font-weight="bold" fill="#a6192e">FINAL DRAFT</text><rect x="126" y="23" width="58" height="14" fill="#a6192e"/><text x="130" y="33" font-size="8" font-weight="bold" fill="#fff">OVERTIME</text></svg>
+<div class="kick"><i>4</i>ANTALYA &middot; CLIMATE</div>
+<h3>COP31 runs into overtime as deal stalls</h3>
+<p>Final day, no final text; talks into overtime Saturday. Draft omits fossil fuels. <i>&mdash; AP</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#1d4e9e"/><rect x="8" y="6" width="50" height="30" fill="#c8102e"/><path d="M8 6 L58 36 M58 6 L8 36 M8 21 L58 21 M33 6 L33 36" stroke="#fff" stroke-width="5"/><path d="M8 6 L58 36 M58 6 L8 36" stroke="#c8102e" stroke-width="2"/><rect x="62" y="12" width="76" height="18" fill="#fff"/><text x="66" y="25" font-size="9.5" font-weight="bold" fill="#a6192e">100,000 / YR</text><circle cx="160" cy="21" r="14" fill="#003399"/><g fill="#ffcf3f"><circle cx="160" cy="10" r="1.7"/><circle cx="167" cy="13" r="1.7"/><circle cx="170" cy="21" r="1.7"/><circle cx="167" cy="29" r="1.7"/><circle cx="160" cy="32" r="1.7"/><circle cx="153" cy="29" r="1.7"/><circle cx="150" cy="21" r="1.7"/><circle cx="153" cy="13" r="1.7"/></g></svg>
+<div class="kick"><i>5</i>BRUSSELS &middot; EUROPE</div>
+<h3>Britain and the EU sign the reset deal</h3>
+<p>Youth mobility 100,000 a year each way; food checks scrapped; carbon markets linked from 2028. <i>&mdash; Reuters</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#3a2b1f"/><text x="8" y="14" font-size="10" font-weight="bold" fill="#fff">CAPITOL</text><text x="8" y="40" font-size="11" font-weight="bold" fill="#ffcf3f">$350bn SOUGHT</text><path d="M78 26 L78 14 Q95 4 112 14 L112 26 Z" fill="#d8cbb2"/><rect x="72" y="26" width="46" height="4" fill="#d8cbb2"/><rect x="126" y="6" width="56" height="14" fill="#fff" transform="rotate(5 154 13)"/><text x="130" y="16" font-size="8.5" font-weight="bold" fill="#a6192e" transform="rotate(5 154 13)">SHUTDOWN?</text></svg>
+<div class="kick"><i>6</i>WASHINGTON &middot; POLITICS</div>
+<h3>Shutdown looms as the Iran war splits Congress</h3>
+<p>Trump seeks $350bn Pentagon funding; shutdown demand looms. <i>&mdash; Reuters</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect x="0" width="95" height="42" fill="#c8102e"/><rect y="21" width="95" height="21" fill="#fff"/><rect x="95" width="95" height="42" fill="#de2910"/><text x="104" y="16" font-size="12" fill="#ffde00">&#9733;</text><text x="118" y="13" font-size="8" fill="#ffde00">&#9733;</text><text x="104" y="28" font-size="8" fill="#ffde00">&#9733;</text><text x="8" y="16" font-size="10" font-weight="bold" fill="#fff">PRABOWO</text><text x="104" y="38" font-size="10" font-weight="bold" fill="#fff">XI &middot; BEIJING</text></svg>
+<div class="kick"><i>7</i>BEIJING &middot; DIPLOMACY</div>
+<h3>Prabowo and Xi talk South China Sea</h3>
+<p>Prabowo met Xi in Beijing to discuss the economy, investment and the sea. <i>&mdash; Reuters</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#1a1a2e"/><text x="8" y="17" font-size="12" font-weight="bold" fill="#fff">19,000</text><text x="8" y="33" font-size="10" font-weight="bold" fill="#ffcf3f">CHANNELS</text><rect x="76" y="8" width="44" height="26" rx="4" fill="#c8102e"/><path d="M91 15 L105 21 L91 27 Z" fill="#fff"/><text x="132" y="30" font-size="22" font-weight="bold" fill="#fff">X</text></svg>
+<div class="kick"><i>8</i>JAKARTA &middot; TECH</div>
+<h3>Indonesia queries Google over 19,000 channels</h3>
+<p>Jakarta asked Google to justify removing 19,000+ pro-government YouTube channels. <i>&mdash; Reuters</i></p>
+</div>
+</div>
+
+<div class="meds">
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#5b3a1a"/><rect x="8" y="20" width="78" height="14" fill="#e8dcc0"/><rect x="8" y="12" width="78" height="8" fill="#c8102e"/><text x="10" y="19" font-size="7.5" font-weight="bold" fill="#fff">500,000 TABLETS</text><rect x="98" y="8" width="84" height="16" fill="#fff" transform="rotate(-4 140 16)"/><text x="102" y="20" font-size="10" font-weight="bold" fill="#a6192e" transform="rotate(-4 140 16)">SEIZED &middot; 6 HELD</text><circle cx="150" cy="32" r="5" fill="#fff"/><circle cx="165" cy="32" r="5" fill="#ffcf3f"/></svg>
+<div class="kick"><i>9</i>NEW DELHI &middot; CRIME</div>
+<h3>India busts opioid ring shipping to US buyers</h3>
+<p>~500,000 tablets shipped via messaging apps; six arrested. <i>&mdash; Reuters</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#e8e0c8"/><path d="M20 34 L20 14 L170 14 L170 34" stroke="#8a7a4a" stroke-width="2" fill="none"/><rect x="24" y="14" width="8" height="20" fill="#8a7a4a"/><rect x="56" y="14" width="8" height="20" fill="#8a7a4a"/><rect x="88" y="14" width="8" height="20" fill="#8a7a4a"/><rect x="120" y="14" width="8" height="20" fill="#8a7a4a"/><rect x="152" y="14" width="8" height="20" fill="#8a7a4a"/><rect x="60" y="22" width="70" height="14" fill="#14663f" transform="rotate(-5 95 29)"/><text x="64" y="32" font-size="9" font-weight="bold" fill="#fff" transform="rotate(-5 95 29)">ACQUITTED</text></svg>
+<div class="kick"><i>10</i>SEOUL &middot; JUSTICE</div>
+<h3>Kakao founder&rsquo;s acquittal stands</h3>
+<p>Appeals court upholds Kim Beom-su&rsquo;s acquittal on SM share-rigging charges. <i>&mdash; Reuters / Yonhap</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#12233d"/><path d="M60 8 L130 8 L124 16 L66 16 Z" fill="#d8cbb2"/><rect x="66" y="18" width="8" height="14" fill="#d8cbb2"/><rect x="82" y="18" width="8" height="14" fill="#d8cbb2"/><rect x="98" y="18" width="8" height="14" fill="#d8cbb2"/><rect x="114" y="18" width="8" height="14" fill="#d8cbb2"/><rect x="60" y="32" width="70" height="4" fill="#d8cbb2"/><text x="8" y="18" font-size="11" font-weight="bold" fill="#fff">LEAKED</text><text x="8" y="34" font-size="12" font-weight="bold" fill="#ffcf3f">$582m</text><text x="136" y="26" font-size="10" font-weight="bold" fill="#fff">FILES</text></svg>
+<div class="kick"><i>11</i>FRANKFURT &middot; BANKING</div>
+<h3>Deutsche Bank leaks expose $582m deals</h3>
+<p>Bank sent Trump&rsquo;s tax return by mistake; ~$582m Epstein-linked deals flagged. <i>&mdash; Reuters Breakingviews</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#4b1d6b"/><text x="8" y="30" font-size="24" font-weight="bold" fill="#fff">VI</text><rect x="64" y="10" width="46" height="22" rx="10" fill="#222"/><circle cx="78" cy="21" r="4" fill="#ffcf3f"/><circle cx="98" cy="21" r="4" fill="#7ec8e3"/><text x="118" y="19" font-size="12" font-weight="bold" fill="#fff">24.6m</text><text x="118" y="35" font-size="8.5" font-weight="bold" fill="#ffcf3f">METACRITIC 99</text></svg>
+<div class="kick"><i>12</i>WORLDWIDE &middot; GAMES</div>
+<h3>GTA VI sells 24.6m copies in a day</h3>
+<p>Est. $2.36bn in 24 hours (Sensor Tower); Metacritic 99. <i>&mdash; NME / AsiaToday</i></p>
+</div>
+<div class="panel med">
+<svg class="art" viewBox="0 0 190 42" preserveAspectRatio="none"><rect width="190" height="42" fill="#f3e2c8"/><rect x="8" y="12" width="56" height="18" rx="9" fill="#fff" stroke="#c8102e" stroke-width="2"/><rect x="8" y="12" width="28" height="18" rx="9" fill="#c8102e"/><text x="72" y="20" font-size="11" font-weight="bold" fill="#7a1420">TUMOURS</text><text x="72" y="35" font-size="11" font-weight="bold" fill="#14663f">VANISHED</text></svg>
+<div class="kick"><i>13</i>LONDON &middot; SCIENCE</div>
+<h3>Hope as cancer pill makes tumours vanish</h3>
+<p>A pancreatic cancer pill trial saw tumours vanish. <i>&mdash; BBC</i></p>
+</div>
+</div>
+
+<div class="bottom">
+<div class="mapbox"><h4>WHERE IT HAPPENED</h4>
+<svg viewBox="0 0 320 170"><rect width="320" height="170" fill="#14264a"/><g fill="#d9c48f"><polygon points="12,42 62,26 96,36 92,72 62,88 30,82 12,62"/><polygon points="76,96 106,96 100,136 82,152 72,122"/><polygon points="150,30 176,24 186,40 170,56 150,50"/><polygon points="150,62 182,62 192,86 176,116 156,106 148,82"/><polygon points="186,26 262,20 292,40 282,76 242,82 206,72 190,50"/><polygon points="256,122 286,120 292,136 262,140"/></g><g font-size="8" font-weight="bold" text-anchor="middle"><circle cx="174" cy="36" r="7.5" fill="#c8102e"/><text x="174" y="39" fill="#fff">1</text><circle cx="238" cy="70" r="7.5" fill="#c8102e"/><text x="238" y="73" fill="#fff">2</text><circle cx="66" cy="58" r="7.5" fill="#c8102e"/><text x="66" y="61" fill="#fff">3</text><circle cx="178" cy="62" r="7.5" fill="#c8102e"/><text x="178" y="65" fill="#fff">4</text><circle cx="144" cy="48" r="7.5" fill="#c8102e"/><text x="144" y="51" fill="#fff">5</text><circle cx="70" cy="66" r="7.5" fill="#c8102e"/><text x="70" y="69" fill="#fff">6</text><circle cx="252" cy="52" r="7.5" fill="#c8102e"/><text x="252" y="55" fill="#fff">7</text><circle cx="258" cy="98" r="7.5" fill="#c8102e"/><text x="258" y="101" fill="#fff">8</text><circle cx="232" cy="62" r="7.5" fill="#c8102e"/><text x="232" y="65" fill="#fff">9</text><circle cx="262" cy="46" r="7.5" fill="#c8102e"/><text x="262" y="49" fill="#fff">10</text><circle cx="156" cy="60" r="7.5" fill="#c8102e"/><text x="156" y="63" fill="#fff">11</text><circle cx="120" cy="80" r="7.5" fill="#c8102e"/><text x="120" y="83" fill="#fff">12</text><circle cx="136" cy="32" r="7.5" fill="#c8102e"/><text x="136" y="35" fill="#fff">13</text></g></svg>
+<p>Red pins mark stories 1&ndash;13. Briefs run 14&ndash;34. Positions approximate.</p></div>
+<div class="briefs"><h4>ALSO ON <span>FRIDAY 20 NOVEMBER</span> &mdash; 21 MORE STORIES</h4>
+<div class="bcols"><div>
+<p><b>14 BAGHDAD</b> &mdash; Iraq forces enter Kataib Hezbollah stronghold. <i>Reuters</i></p>
+<p><b>15 WASHINGTON</b> &mdash; Democrats probe Nvidia&rsquo;s Megaspeed sway. <i>Reuters</i></p>
+<p><b>16 BRUSSELS</b> &mdash; Europe ready for Russia talks on ending the war. <i>BBC</i></p>
+<p><b>17 WASHINGTON</b> &mdash; White House removes cyber-security chief. <i>BBC</i></p>
+<p><b>18 LONDON</b> &mdash; Consent-law calls after Young case. <i>BBC</i></p>
+<p><b>19 LONDON</b> &mdash; Airbnb house rules in force. <i>BBC</i></p>
+<p><b>20 LONDON</b> &mdash; UK fridges secured from hackers. <i>BBC</i></p>
+<p><b>21 LONDON</b> &mdash; Stockpiling lifts retail sales after &lsquo;Be Ready&rsquo;. <i>BBC</i></p>
+<p><b>22 LONDON</b> &mdash; UK coldest night of autumn, &minus;10C. <i>BBC</i></p>
+<p><b>23 LAS VEGAS</b> &mdash; Russell fastest in wet Las Vegas GP practice. <i>BBC</i></p>
+<p><b>24 PARIS</b> &mdash; UFC bans Fiorot three months. <i>BBC</i></p>
+</div><div>
+<p><b>25 LOS ANGELES</b> &mdash; Rams&rsquo; Nacua suspended for misconduct. <i>BBC</i></p>
+<p><b>26 CARDIFF</b> &mdash; Wales face Slovenia in March play-off. <i>BBC</i></p>
+<p><b>27 LONDON</b> &mdash; Prince Harry would rejoin the army. <i>BBC</i></p>
+<p><b>28 NEW DELHI</b> &mdash; William and Kate meet Modi as India tour ends. <i>BBC</i></p>
+<p><b>29 LONDON</b> &mdash; UK to send Ukraine 1,000 long-range strike drones. <i>BBC</i></p>
+<p><b>30 PARIS</b> &mdash; France unrest may cost insurers &euro;207m. <i>Euronews</i></p>
+<p><b>31 BRADFORD</b> &mdash; Stabbed councillor &lsquo;protecting a staff member&rsquo;. <i>BBC</i></p>
+<p><b>32 JOHANNESBURG</b> &mdash; Rand at one-year low amid coalition talks. <i>Reuters</i></p>
+<p><b>33 WASHINGTON</b> &mdash; Musk &lsquo;pretty foolish&rsquo; over midterm spending. <i>Reuters</i></p>
+<p><b>34 SHENZHEN</b> &mdash; Analysis: summit masks each bilateral limit. <i>Reuters Breakingviews</i></p>
+</div></div></div>
+</div>
+
+<div class="datecheck"><b>DATE CHECK &#10003; FRIDAY 20 NOVEMBER 2026.</b> Every story on this page happened, or was first reported, on Friday 20 November 2026. Left out &mdash; first reported Thursday 19 Nov, so <b>NOT</b> shown: Anthropic&rsquo;s $97.17 first-day close &middot; the ICJ Myanmar genocide verdict &middot; the Trump&ndash;Xi&ndash;Putin summit itself &middot; GTA VI&rsquo;s launch &middot; Korea&rsquo;s Suneung exam &middot; the COP31 revised draft.</div>
+<div class="foot">Claims are attributed, not stated as fact &middot; Pictures and map: original, drawn in code &middot; Sources: Reuters, AP, BBC, IMD, NME, Euronews, Sensor Tower &middot; 2026-11-20</div>
+</div></body></html>
